@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Мир сайтов</title>
+
+        <link rel="stylesheet" href="styles/main.min.css">
+        <link rel="icon" href="images/favicon.png">
+
+        <script src="scripts/main.min.js" defer></script>
+    </head>
+    <body>
+        <div class="page">
+            <section class="screen">
+                <canvas class="screen__canvas"></canvas>
+                <div class="lighters screen__lighters">
+                    <svg class="lighter lighter--blue lighters__item lighters__item--top" width="154" height="191" viewBox="0 0 154 191" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.8" d="M154 74.8776C154 106.878 142.015 191 110.034 191C78.0526 191 0 92.1829 0 60.182C0 28.1812 25.926 0 57.9074 0C89.8887 0 154 42.8768 154 74.8776Z" />
+                    </svg>
+
+                    <svg class="lighter lighter--pink lighters__item lighters__item--right" width="222" height="276" viewBox="0 0 222 276" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.8" d="M222 108.2C222 154.442 204.723 276 158.62 276C112.517 276 0 133.207 0 86.9646C0 40.7225 37.3739 0 83.4768 0C129.58 0 222 61.958 222 108.2Z" fill="#672BB9" />
+                    </svg>
+                </div>
+
+                <div class="screen__inner">
+                    <header class="header screen__header">
+                        <div class="header__container container">
+                            <div class="logo header__logo">
+                                <div class="logo__icon"></div>
+                                <div class="logo__text">
+                                    <div class="logo__brand" data-hover="Мир сайтов">
+                                        Мир сайтов
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a class="header__phone header__item" href="tel:+79246365121">
+                                +7 924 636 5121
+                            </a>
+
+                            <button class="header__btn header__item" type="button" data-popup="feedbackPopup">
+                                Позвоните мне
+                            </button>
+
+                            <button class="header__msg-btn" data-popup="feedbackPopup">
+                                <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.4">
+                                        <path d="M4.434 5.37996H13.5813C13.9379 5.37996 14.2169 5.10089 14.2169 4.7443C14.2169 4.38771 13.9379 4.10864 13.5813 4.10864H4.434C4.07741 4.10864 3.79834 4.38771 3.79834 4.7443C3.79834 5.10089 4.07741 5.37996 4.434 5.37996Z" fill="white" />
+                                        <path d="M4.434 8.44966H13.5813C13.9379 8.44966 14.2169 8.17059 14.2169 7.814C14.2169 7.45741 13.9379 7.17834 13.5813 7.17834H4.434C4.07741 7.17834 3.79834 7.45741 3.79834 7.814C3.79834 8.17059 4.07741 8.44966 4.434 8.44966Z" fill="white" />
+                                        <path d="M0.635659 12.5581H2.68217V14.6512C2.68217 14.8992 2.82171 15.1163 3.03876 15.2248C3.13178 15.2713 3.22481 15.2868 3.31783 15.2868C3.45736 15.2868 3.5969 15.2403 3.70543 15.1628L7.11628 12.5736H17.3798C17.7364 12.5736 18.0155 12.2946 18.0155 11.938V0.635659C18.0155 0.27907 17.7364 0 17.3798 0H0.635659C0.27907 0 0 0.27907 0 0.635659V11.9225C0 12.2791 0.294574 12.5581 0.635659 12.5581ZM1.27132 1.27132H16.7287V11.2868H6.89922C6.75969 11.2868 6.62015 11.3333 6.51163 11.4109L3.95349 13.3643V11.9225C3.95349 11.5659 3.67442 11.2868 3.31783 11.2868H1.27132V1.27132Z" fill="white" />
+                                    </g>
+                                </svg>
+                            </button>
+                        </div>
+                    </header>
+
+                    <div class="screen__body">
+                        <div class="container">
+                            <div class="screen__content">
+                                <div class="screen__title">
+                                    <span>Быстрый сайт</span>
+                                    <span>за немного,</span>
+                                </div>
+
+                                <div class="screen__subtitle">
+                                    <div class="screen__typewriter" data-wait="3000" data-words='["как&nbsp;вот&nbsp;этот",
+                                              "или&nbsp;тот",
+                                              "или&nbsp;какой-нибудь&nbsp;другой"]'>
+                                    </div>
+                                    <svg class="screen__arrow" width="540" height="261" viewBox="0 0 540 261" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.15" d="M350.481 181.649L349.992 181.08L350.481 181.649ZM0.25033 259.978C0.238041 260.392 0.563717 260.737 0.977748 260.75L7.72478 260.95C8.13881 260.962 8.48441 260.637 8.4967 260.223C8.50899 259.808 8.18331 259.463 7.76928 259.451L1.77192 259.273L1.94993 253.275C1.96222 252.861 1.63655 252.516 1.22252 252.503C0.808484 252.491 0.462883 252.817 0.450594 253.231L0.25033 259.978ZM151.397 22.2015C200.166 10.7174 297.241 0.344659 382.024 1.90645C424.418 2.68742 463.681 6.45206 492.273 14.5283C506.573 18.5674 518.144 23.6691 526.103 29.9696C534.043 36.256 538.343 43.6956 538.248 52.4671L539.748 52.4833C539.85 43.1277 535.232 35.2842 527.034 28.7936C518.853 22.3172 507.066 17.1482 492.681 13.0848C463.902 4.95594 424.487 1.18844 382.051 0.406708C297.172 -1.15688 199.968 9.22289 151.053 20.7415L151.397 22.2015ZM538.248 52.4671C538.153 61.2734 533.708 69.9736 525.833 78.4204C517.961 86.8646 506.717 94.9925 493.171 102.637C466.082 117.925 429.92 131.207 393.499 141.212C357.081 151.217 320.451 157.932 292.444 160.106C278.435 161.193 266.623 161.141 258.086 159.812C253.815 159.147 250.41 158.169 247.971 156.886C245.531 155.603 244.146 154.065 243.717 152.309L242.26 152.665C242.83 154.997 244.626 156.822 247.272 158.214C249.919 159.606 253.506 160.617 257.855 161.294C266.56 162.649 278.506 162.692 292.56 161.601C320.683 159.418 357.409 152.682 393.896 142.659C430.379 132.637 466.671 119.315 493.909 103.944C507.526 96.2587 518.913 88.0425 526.93 79.4433C534.945 70.8467 539.647 61.8041 539.748 52.4833L538.248 52.4671ZM243.717 152.309C243.252 150.407 243.401 148.759 244.04 147.32C244.682 145.872 245.848 144.578 247.512 143.441C250.86 141.156 256.099 139.599 262.603 138.749C275.586 137.052 293.248 138.212 309.841 141.561C326.457 144.915 341.848 150.432 350.373 157.35C354.632 160.807 357.062 164.517 357.229 168.384C357.394 172.237 355.321 176.496 349.992 181.08L350.97 182.217C356.475 177.482 358.92 172.819 358.727 168.32C358.534 163.836 355.73 159.765 351.318 156.186C342.502 149.031 326.813 143.456 310.138 140.091C293.441 136.721 275.604 135.536 262.409 137.262C255.824 138.122 250.305 139.718 246.666 142.203C244.838 143.451 243.453 144.945 242.669 146.712C241.88 148.487 241.725 150.479 242.26 152.665L243.717 152.309ZM349.992 181.08C345.805 184.68 338.486 187.504 328.585 189.788C318.713 192.066 306.389 193.783 292.294 195.242C264.074 198.162 228.967 200.028 192.337 203.304C155.753 206.575 117.743 211.248 83.9216 219.773C50.1139 228.295 20.4018 240.686 0.485638 259.454L1.51436 260.546C21.1533 242.039 50.5695 229.727 84.2882 221.228C117.993 212.732 155.908 208.068 192.471 204.798C228.988 201.532 264.251 199.652 292.448 196.734C306.562 195.273 318.959 193.548 328.922 191.25C338.856 188.958 346.488 186.072 350.97 182.217L349.992 181.08Z" fill="white" />
+                                    </svg>
+                                    <svg class="screen__arrow-mobile" width="227" height="363" viewBox="0 0 227 363" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.15" d="M131.039 253.489L130.683 253.34L131.039 253.489ZM1.6473 362.158C1.73431 362.352 1.96277 362.44 2.15756 362.353L5.33187 360.935C5.52666 360.848 5.61403 360.619 5.52701 360.424C5.44 360.23 5.21154 360.142 5.01675 360.229L2.19514 361.49L0.934692 358.668C0.847676 358.473 0.619226 358.386 0.424435 358.473C0.229643 358.56 0.142274 358.788 0.22929 358.983L1.6473 362.158ZM30.8823 29.9361C55.4119 13.9084 104.261 -0.575609 146.915 1.60464C168.239 2.69454 187.964 7.94669 202.327 19.2035C216.672 30.4465 225.711 47.7137 225.613 72.9445L226.385 72.9475C226.485 47.5063 217.357 30.002 202.804 18.5954C188.268 7.20272 168.363 1.9273 146.955 0.83306C104.148 -1.35499 55.135 13.1664 30.4597 29.2893L30.8823 29.9361ZM225.613 72.9445C225.416 123.442 189.256 169.716 152.574 197.676C134.237 211.653 115.814 221.019 101.754 224.047C94.7184 225.562 88.8287 225.479 84.5938 223.65C80.3951 221.837 77.7708 218.285 77.2785 212.697L76.5089 212.765C77.0235 218.605 79.8015 222.422 84.2875 224.359C88.7373 226.281 94.8148 226.332 101.916 224.802C116.129 221.741 134.656 212.305 153.043 198.291C189.808 170.267 226.187 123.794 226.385 72.9475L225.613 72.9445ZM77.2785 212.697C76.7796 207.035 77.5856 202.652 79.3011 199.403C81.0133 196.159 83.6452 194.018 86.8569 192.853C93.3025 190.515 102.121 192.103 110.455 196.77C127.107 206.095 141.502 227.524 130.683 253.34L131.396 253.639C142.41 227.356 127.718 205.552 110.832 196.096C102.397 191.372 93.3339 189.682 86.5934 192.127C83.2121 193.353 80.4249 195.619 78.6179 199.042C76.8142 202.458 76.001 207 76.5089 212.765L77.2785 212.697ZM130.683 253.34C126.371 263.631 118.716 269.053 108.967 273.017C104.086 275.001 98.6918 276.616 92.9342 278.294C87.182 279.97 81.071 281.709 74.7845 283.936C62.2049 288.394 48.9054 294.818 36.2536 306.667C23.6026 318.514 11.6184 335.769 1.63919 361.862L2.36081 362.138C12.3062 336.133 24.231 318.984 36.7817 307.23C49.3316 295.477 62.5266 289.1 75.0425 284.665C81.3037 282.446 87.3908 280.714 93.1504 279.036C98.9045 277.359 104.336 275.734 109.258 273.733C119.115 269.724 126.975 264.187 131.396 253.639L130.683 253.34Z" fill="white" />
+                                    </svg>
+                                </div>
+
+                                <div class="screen__text">
+                                    Подойдёт для быстрого запуска, тестирования ниш
+                                    и лидогенерации
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="screen__footer">
+                        <div class="portfolio">
+                            <div class="projects portfolio__projects swiper" data-cursor="arrows">
+                                <ul class="projects__list swiper-wrapper">
+                                    <li class="project projects__item swiper-slide" data-card="images/project/dobrota.jpg" data-popup="projectPopup">
+                                        <div class="project__title">
+                                            <div class="project__name">
+                                                Доброта Денисыча
+                                            </div>
+
+                                            <svg class="project__arrow" width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.3" d="M0 5.1091H29M29 5.1091L23.6411 9.41357M29 5.1091L23.6411 0.413567" stroke="white" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="project__info" style="display: none;">
+                                            <div class="project__video">
+                                                <video data-src="videos/cases/dobrota.mp4"></video>
+                                            </div>
+                                            <div class="project__screens">
+                                                <img data-src="images/cases/dobrota/00.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/dobrota/01.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/dobrota/02.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/dobrota/03.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/dobrota/04.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                            </div>
+                                            <div class="project__description">
+                                                Промо-страница фильма «Доброта Денисыча». Реализована в рамках «IV Байкальского фестиваля регионального кино», посвященный 95-летию Леонида Гайдая. Стилизован под фирменный стиль фильма с крутейшей анимацией.
+                                            </div>
+
+                                            <div class="project__features">
+                                                - Формы заявок<br>- Онлайн просмотр книг<br>- Галерея фотографий<br>- Интернет-эквайринг от ЯндексКасс<br>- Интерактивная карта Яндекс
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="project projects__item swiper-slide" data-card="images/project/ggconsultation.jpg" data-popup="projectPopup">
+                                        <div class="project__title">
+                                            <div class="project__name">
+                                                G&G Lawyers форма
+                                            </div>
+
+                                            <svg class="project__arrow" width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.3" d="M0 5.1091H29M29 5.1091L23.6411 9.41357M29 5.1091L23.6411 0.413567" stroke="white" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="project__info" style="display: none;">
+                                            <div class="project__video">
+                                                <video data-src="videos/cases/ggconsultation.mp4"></video>
+                                            </div>
+                                            <div class="project__screens">
+                                                <img data-src="images/cases/ggconsultation/00.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/ggconsultation/01.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/ggconsultation/02.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                            </div>
+                                            <div class="project__description">
+                                                Одноэкранный лэндинг для сбора аудиторий на индивидуальную консультацию в рамках рекламной кампании. Является дополнением основного сайта.
+                                            </div>
+
+                                            <div class="project__features">
+                                                - Форма заявки<br>- Уведомление, всплывающее при закрытии сайта<br>- Интеграция с CRM Bitrix 24<br>- Динамическая подмена контента для различных типов рекламных кампаний
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="project projects__item swiper-slide" data-card="images/project/ggquiz.jpg" data-popup="projectPopup">
+                                        <div class="project__title">
+                                            <div class="project__name">
+                                                G&G Lawyers квиз
+                                            </div>
+
+                                            <svg class="project__arrow" width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.3" d="M0 5.1091H29M29 5.1091L23.6411 9.41357M29 5.1091L23.6411 0.413567" stroke="white" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="project__info" style="display: none;">
+                                            <div class="project__video">
+                                                <video data-src="videos/cases/ggquiz.mp4"></video>
+                                            </div>
+                                            <div class="project__screens">
+                                                <img data-src="images/cases/ggquiz/00.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/ggquiz/01.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/ggquiz/02.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                            </div>
+                                            <div class="project__description">
+                                                Мини-лэндинг с квизом/опросником, для сбора аудиторий на индивидуальную консультацию в рамках рекламной кампании. Является дополнением основного сайта.
+                                            </div>
+
+                                            <div class="project__features">
+                                                - Форма заявки<br>- Уведомление, всплывающее при закрытии сайта<br>- Интеграция с CRM Bitrix 24<br>- Динамическая подмена контента для различных типов рекламных кампаний<br>- Автоматическая отправка данных на указанный e-mail в зависимости от вариантов ответов
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="project projects__item swiper-slide" data-card="images/project/avtomoney.jpg" data-popup="projectPopup">
+                                        <div class="project__title">
+                                            <div class="project__name">
+                                                Avtomoney калькуляторы
+                                            </div>
+
+                                            <svg class="project__arrow" width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.3" d="M0 5.1091H29M29 5.1091L23.6411 9.41357M29 5.1091L23.6411 0.413567" stroke="white" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="project__info" style="display: none;">
+                                            <div class="project__video">
+                                                <video data-src="videos/cases/avtomoney.mp4"></video>
+                                            </div>
+                                            <div class="project__screens">
+                                                <img data-src="images/cases/avtomoney/00.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/avtomoney/01.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/avtomoney/02.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/avtomoney/03.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                            </div>
+                                            <div class="project__description">
+                                                Одноэкранный сайт для лидогенерации теплого трафика в таргетированной рекламе. Является дополнением основного сайта.
+                                            </div>
+
+                                            <div class="project__features">
+                                                - Форма заявки<br>- Калькулятор расчета займа по выбранным параметрам<br>- Интеграция с CRM Bitrix 24<br>- Динамическая подмена контента в зависимости от типа рекламы<br>- Мультирегиональность (изменение контактных данных в зависимости от выбранного города)<br>- Уведомления в Telegram
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="project projects__item swiper-slide" data-card="images/project/svetlyiyar.jpg" data-popup="projectPopup">
+                                        <div class="project__title">
+                                            <div class="project__name">
+                                                Светлый Яр лидогенерация
+                                            </div>
+
+                                            <svg class="project__arrow" width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.3" d="M0 5.1091H29M29 5.1091L23.6411 9.41357M29 5.1091L23.6411 0.413567" stroke="white" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="project__info" style="display: none;">
+                                            <div class="project__video">
+                                                <video data-src="videos/cases/svetlyiyar.mp4"></video>
+                                            </div>
+                                            <div class="project__screens">
+                                                <img data-src="images/cases/svetlyiyar/00.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/svetlyiyar/01.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/svetlyiyar/02.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/svetlyiyar/03.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                            </div>
+                                            <div class="project__description">
+                                                Серия лид-магнитов для прогрева целевой аудитории. Идеальный инструмент для колл-центра и продаж продукта/услуг с долгим циклом сделки. Используется для автоматического взаимодействия текущих клиентов и отдела продаж. Повышает конверсию и сокращает трудозатраты специалистов. В рамках проекта была разработана презентация/маркетинг-кит предложения.
+                                            </div>
+
+                                            <div class="project__features">
+                                                - Формы заявок<br>- Автоматическая отправка писем с презентацией на указанный e-mail<br>- Интеграция с CRM Bitrix 24<br>- Галерея фотографий<br>- Онлайн просмотр презентации<br>- Форма, всплывающая при закрытии сайта<br>- Отсчет времени до конца акции
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="project projects__item swiper-slide" data-card="images/project/xfit.jpg" data-popup="projectPopup">
+                                        <div class="project__title">
+                                            <div class="project__name">
+                                                X-Fit лидогенерация
+                                            </div>
+
+                                            <svg class="project__arrow" width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.3" d="M0 5.1091H29M29 5.1091L23.6411 9.41357M29 5.1091L23.6411 0.413567" stroke="white" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="project__info" style="display: none;">
+                                            <div class="project__video">
+                                                <video data-src="videos/cases/xfit.mp4"></video>
+                                            </div>
+                                            <div class="project__screens">
+                                                <img data-src="images/cases/xfit/00.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/xfit/01.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/xfit/02.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/xfit/03.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                            </div>
+                                            <div class="project__description">
+                                                Серия одноэкранных сайтов для проведения рекламных кампаний и тестирования предложений. Имеет конверсию выше, в отличии от обычного сайта, быструю окупаемость затрат и короткий срок запуска рекламы. В рамках проекта была разработана маркетинговая стратегия и проработаны связки с отделом продаж.
+                                            </div>
+
+                                            <div class="project__features">
+                                                - Формы заявок<br>- Интеграция с 1С<br>- Галерея фотографий<br>- Динамическая подмена контента в зависимости от типа рекламы<br>- Форма, всплывающая при закрытии сайта<br>- Уведомления в Telegram
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="project projects__item swiper-slide" data-card="images/project/smilerozygrysh.jpg" data-popup="projectPopup">
+                                        <div class="project__title">
+                                            <div class="project__name">
+                                                Центр зрения Микрохирургия
+                                            </div>
+
+                                            <svg class="project__arrow" width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.3" d="M0 5.1091H29M29 5.1091L23.6411 9.41357M29 5.1091L23.6411 0.413567" stroke="white" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="project__info" style="display: none;">
+                                            <div class="project__video">
+                                                <video data-src="videos/cases/smilerozygrysh.mp4"></video>
+                                            </div>
+                                            <div class="project__screens">
+                                                <img data-src="images/cases/smilerozygrysh/00.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/smilerozygrysh/01.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/smilerozygrysh/02.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                            </div>
+                                            <div class="project__description">
+                                                Мини-лэндинг с формой регистрации на участие в розыгрыше. Является дополнением основного сайта.
+                                            </div>
+
+                                            <div class="project__features">
+                                                - Формы заявок<br>- Автоматическая отправка писем с данными на указанный e-mail<br>- Выгрузка данных в формате excel<br>- Уведомления в Telegram<br>- Отсчет времени до конца акции<br>- Вывод базы в маскированный список
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="project projects__item swiper-slide" data-card="images/project/dellivepredlojenie.jpg" data-popup="projectPopup">
+                                        <div class="project__title">
+                                            <div class="project__name">
+                                                Dellive предложение
+                                            </div>
+
+                                            <svg class="project__arrow" width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.3" d="M0 5.1091H29M29 5.1091L23.6411 9.41357M29 5.1091L23.6411 0.413567" stroke="white" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="project__info" style="display: none;">
+                                            <div class="project__video">
+                                                <video data-src="videos/cases/dellivepredlojenie.mp4"></video>
+                                            </div>
+                                            <div class="project__screens">
+                                                <img data-src="images/cases/dellivepredlojenie/00.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/dellivepredlojenie/01.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/dellivepredlojenie/02.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/dellivepredlojenie/03.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                            </div>
+                                            <div class="project__description">
+                                                Одноэкранный сайт для сбора клиентов и краткого описания услуг. Является дополнением основного сайта.
+                                            </div>
+
+                                            <div class="project__features">
+                                                - Формы заявок<br>- Автоматическая отправка писем с данными на указанный e-mail<br>- Динамическая подмена контента<br>- Уведомления в Telegram
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="project projects__item swiper-slide" data-card="images/project/dellivesait.jpg" data-popup="projectPopup">
+                                        <div class="project__title">
+                                            <div class="project__name">
+                                                Dellive лидогенерация
+                                            </div>
+
+                                            <svg class="project__arrow" width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.3" d="M0 5.1091H29M29 5.1091L23.6411 9.41357M29 5.1091L23.6411 0.413567" stroke="white" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="project__info" style="display: none;">
+                                            <div class="project__video">
+                                                <video data-src="videos/cases/dellivesait.mp4"></video>
+                                            </div>
+                                            <div class="project__screens">
+                                                <img data-src="images/cases/dellivesait/00.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/dellivesait/01.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/dellivesait/02.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                            </div>
+                                            <div class="project__description">
+                                                Серия мини-лэндингов для сбора клиентов, описания услуг и презентаций работ. Является дополнением основного сайта. В рамках проекта были разработаны презентации выполненных проектов.
+                                            </div>
+
+                                            <div class="project__features">
+                                                - Формы заявок<br>- Автоматическая отправка писем с данными на указанный e-mail<br>- Онлайн просмотр презентации<br>- Галерея фотографий<br>- Уведомления в Telegram
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="project projects__item swiper-slide" data-card="images/project/avtokredoffers.jpg" data-popup="projectPopup">
+                                        <div class="project__title">
+                                            <div class="project__name">
+                                                Автокредит лидогенерация
+                                            </div>
+
+                                            <svg class="project__arrow" width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.3" d="M0 5.1091H29M29 5.1091L23.6411 9.41357M29 5.1091L23.6411 0.413567" stroke="white" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="project__info" style="display: none;">
+                                            <div class="project__video">
+                                                <video data-src="videos/cases/avtokredoffers.mp4"></video>
+                                            </div>
+                                            <div class="project__screens">
+                                                <img data-src="images/cases/avtokredoffers/00.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/avtokredoffers/01.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/avtokredoffers/02.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                            </div>
+                                            <div class="project__description">
+                                                Одноэкранный лэндинг для расчета автокредитования с предложений в рекламной кампании. Является дополнением основного сайта.
+                                            </div>
+
+                                            <div class="project__features">
+                                                - Форма заявки<br>- Автоматическая отправка писем с данными на указанный e-mail<br>- Калькулятор расчета кредита по выбранным параметрам<br>- Интеграция с CRM Bitrix 24<br>- Мультирегиональность (изменение контактных данных в зависимости от выбранного города)<br>- Уведомления в Telegram
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="project projects__item swiper-slide" data-card="images/project/avtokredzayavka.jpg" data-popup="projectPopup">
+                                        <div class="project__title">
+                                            <div class="project__name">
+                                                Автокредит + drom
+                                            </div>
+
+                                            <svg class="project__arrow" width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.3" d="M0 5.1091H29M29 5.1091L23.6411 9.41357M29 5.1091L23.6411 0.413567" stroke="white" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="project__info" style="display: none;">
+                                            <div class="project__video">
+                                                <video data-src="videos/cases/avtokredzayavka.mp4"></video>
+                                            </div>
+                                            <div class="project__screens">
+                                                <img data-src="images/cases/avtokredzayavka/00.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/avtokredzayavka/01.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                            </div>
+                                            <div class="project__description">
+                                                Одноэкранный сайт для расчета кредита пользователя Drom.ru. Используется в качестве взаимодействия с аудиторией классифайдов в период запуска рекламных кампаний. Имеет интеграцию с площадкой и динамически генерирует контент. Является дополнением основного сайта.
+                                            </div>
+
+                                            <div class="project__features">
+                                                - Форма заявки<br>- Автоматическая отправка писем с данными на указанный e-mail<br>- Калькулятор расчета кредита по выбранным параметрам<br>- Интеграция с CRM Bitrix 24<br>- Динамическая подмена контента в зависимости от типа рекламного объявления/страницы<br>- Мультирегиональность (изменение контактных данных в зависимости от выбранного города)<br>- Уведомления в Telegram
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="project projects__item swiper-slide" data-card="images/project/mirsaitov.jpg" data-popup="projectPopup">
+                                        <div class="project__title">
+                                            <div class="project__name">
+                                                Мир сайтов промо
+                                            </div>
+
+                                            <svg class="project__arrow" width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.3" d="M0 5.1091H29M29 5.1091L23.6411 9.41357M29 5.1091L23.6411 0.413567" stroke="white" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="project__info" style="display: none;">
+                                            <div class="project__video">
+                                                <video data-src="videos/cases/mirsaitov.mp4"></video>
+                                            </div>
+                                            <div class="project__screens">
+                                                <img data-src="images/cases/mirsaitov/00.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/mirsaitov/01.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/mirsaitov/02.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/mirsaitov/03.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                            </div>
+                                            <div class="project__description">
+                                                Одноэкранный лэндинг для краткого описания услуг и презентации работ. Является дополнением основного инструмента. Имеет «резиновую» верстку и адаптивность под мобильные устройства.
+                                            </div>
+
+                                            <div class="project__features">
+                                                - Формы заявок<br>- Интерактивная карта Яндекс<br>- Уведомления в Telegram
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="project projects__item swiper-slide" data-card="images/project/kp.jpg" data-popup="projectPopup">
+                                        <div class="project__title">
+                                            <div class="project__name">
+                                                Мир сайтов предложение
+                                            </div>
+
+                                            <svg class="project__arrow" width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.3" d="M0 5.1091H29M29 5.1091L23.6411 9.41357M29 5.1091L23.6411 0.413567" stroke="white" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="project__info" style="display: none;">
+                                            <div class="project__video">
+                                                <video data-src="videos/cases/kp.mp4"></video>
+                                            </div>
+                                            <div class="project__screens">
+                                                <img data-src="images/cases/kp/00.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/kp/01.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/kp/02.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                            </div>
+                                            <div class="project__description">
+                                                Лид-магнит для прогрева целевой аудитории и персонализации ЛПР. Используется колл-центром для увеличения конверсии в договор и автоматизации отдела продаж. В рамках проекта была разработана презентация/маркетинг-кит предложения.
+                                            </div>
+
+                                            <div class="project__features">
+                                                - Форма заявки<br>- Интеграция с CRM Bitrix 24<br>- Онлайн просмотр презентации
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="project projects__item swiper-slide" data-card="images/project/vebinar.jpg" data-popup="projectPopup">
+                                        <div class="project__title">
+                                            <div class="project__name">
+                                                Мир сайтов вебинар
+                                            </div>
+
+                                            <svg class="project__arrow" width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.3" d="M0 5.1091H29M29 5.1091L23.6411 9.41357M29 5.1091L23.6411 0.413567" stroke="white" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="project__info" style="display: none;">
+                                            <div class="project__video">
+                                                <video data-src="videos/cases/vebinar.mp4"></video>
+                                            </div>
+                                            <div class="project__screens">
+                                                <img data-src="images/cases/vebinar/00.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/vebinar/01.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/vebinar/02.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img data-src="images/cases/vebinar/03.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                            </div>
+                                            <div class="project__description">
+                                                Одноэкранный лэндинг для сбора аудиторий на вебинар. Реализовано с целью обучения собственников бизнеса совместно с Фондом Поддержки Предпринимателей Иркутской области. В рамках проекта была разработана презентация программы вебинара.
+                                            </div>
+
+                                            <div class="project__features">
+                                                - Форма заявки<br>- Интеграция с CRM Bitrix 24<br>- Онлайн просмотр презентации
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <button class="portfolio-cta btn portfolio__btn" type="button" data-popup="calcPopup">
+                                <span class="btn__bg"></span>
+
+                                <span class="btn__inner">
+                                    <div class="portfolio-cta__top">
+                                        Сколько стоит?
+                                    </div>
+
+                                    <div class="portfolio-cta__bottom">
+                                        <div class="portfolio-cta__caption">
+                                            Давайте
+                                            посчитаем мне
+                                        </div>
+
+                                        <div class="portfolio-cta__icons">
+                                            <div class="portfolio-cta__arrow">
+                                                <svg width="85" height="25" viewBox="0 0 85 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.4" d="M0.5 12.0003H83.3007M83.3007 12.0003L68 1M83.3007 12.0003L68 24" stroke="white" />
+                                                </svg>
+                                            </div>
+
+                                            <svg class="portfolio-cta__phone" width="64" height="110" viewBox="0 0 64 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="1.10083" y="0.5" width="61.7405" height="109" stroke="white" stroke-opacity="0.2" />
+                                                <rect opacity="0.3" x="20.4011" y="6.60004" width="22.0001" height="2.20001" fill="white" />
+                                                <circle opacity="0.3" cx="31.401" cy="99.0005" r="4.00002" stroke="white" stroke-width="0.8" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div id="feedbackPopup" class="popup">
+                <div class="popup-content">
+                    <div class="popup-content__content"></div>
+                </div>
+
+                <div class="popup-sidebar popup__sidebar" data-cursor="gray">
+                    <button class="popup__close-btn sticky" type="button">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 15L14.6642 1.00001M1.33581 1L15 15" stroke="#444A57" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+
+                    <div class="popup-sidebar__content">
+                        <form id="feedbackForm" class="cta-form" action="/">
+                            <div class="cta-form__step">
+                                <div class="popup-sidebar__title">
+                                    Обратный звонок
+                                </div>
+
+                                <div class="popup-sidebar__subtitle">
+                                    Оставьте свои контактные данные<br>
+                                    и мы перезвоним Вам
+                                </div>
+
+
+                                <div class="cta-form__title">
+                                    Оставить заявку
+                                </div>
+
+                                <div class="cta-form__inner popup-cta__form">
+                                    <input type="hidden" name="formLocation" value="Позвонить мне">
+                                    <div class="form-group cta-form__group">
+                                        <div class="field form-group__field">
+                                            <input class="field__inner" type="text" placeholder="Ваше имя" name="name">
+                                            <svg class="field__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99988 0.0834963C7.01979 0.0831961 6.06542 0.397072 5.27684 0.979055C4.48827 1.56104 3.90701 2.38048 3.61839 3.3171C3.32976 4.25372 3.34898 5.25819 3.67321 6.18309C3.99744 7.10799 4.60962 7.9046 5.41988 8.456C4.01362 8.97177 2.7939 9.89659 1.91768 11.1114C1.04146 12.3262 0.548835 13.7755 0.503211 15.2727C0.498238 15.4384 0.559317 15.5994 0.673011 15.7201C0.786705 15.8408 0.943701 15.9114 1.10946 15.9164C1.27522 15.9214 1.43617 15.8603 1.55689 15.7466C1.67762 15.6329 1.74824 15.4759 1.75321 15.3102C1.80284 13.6864 2.48276 12.1457 3.6489 11.0147C4.81504 9.88363 6.37575 9.25108 8.00029 9.25108C9.62484 9.25108 11.1855 9.88363 12.3517 11.0147C13.5178 12.1457 14.1978 13.6864 14.2474 15.3102C14.248 15.3934 14.2653 15.4756 14.2981 15.5521C14.3309 15.6286 14.3787 15.6977 14.4387 15.7554C14.4986 15.8132 14.5694 15.8584 14.6471 15.8884C14.7247 15.9184 14.8075 15.9326 14.8907 15.9301C14.9739 15.9277 15.0557 15.9087 15.1315 15.8742C15.2072 15.8397 15.2753 15.7904 15.3317 15.7292C15.3881 15.6681 15.4318 15.5962 15.4601 15.518C15.4884 15.4397 15.5008 15.3566 15.4965 15.2735C15.4511 13.7762 14.9585 12.3268 14.0823 11.1118C13.2061 9.89677 11.9863 8.97183 10.5799 8.456C11.3901 7.9046 12.0023 7.10799 12.3265 6.18309C12.6508 5.25819 12.67 4.25372 12.3814 3.3171C12.0927 2.38048 11.5115 1.56104 10.7229 0.979055C9.93433 0.397072 8.97996 0.0831961 7.99988 0.0834963ZM4.66654 4.66683C4.66654 3.78277 5.01773 2.93493 5.64286 2.30981C6.26798 1.68469 7.11582 1.3335 7.99988 1.3335C8.88393 1.3335 9.73178 1.68469 10.3569 2.30981C10.982 2.93493 11.3332 3.78277 11.3332 4.66683C11.3332 5.55088 10.982 6.39873 10.3569 7.02385C9.73178 7.64897 8.88393 8.00016 7.99988 8.00016C7.11582 8.00016 6.26798 7.64897 5.64286 7.02385C5.01773 6.39873 4.66654 5.55088 4.66654 4.66683Z" />
+                                            </svg>
+
+                                            <div class="form-group__check"></div>
+                                        </div>
+                                        <div class="form-group__message"></div>
+                                    </div>
+
+                                    <div class="form-group cta-form__group" data-required>
+                                        <div class="field form-group__field">
+                                            <input class="field__inner" type="tel" placeholder="Телефон" name="phone">
+                                            <svg class="field__icon" width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5.54175 4.375C5.54175 4.20924 5.6076 4.05027 5.72481 3.93306C5.84202 3.81585 6.00099 3.75 6.16675 3.75H7.83342C7.99918 3.75 8.15815 3.81585 8.27536 3.93306C8.39257 4.05027 8.45842 4.20924 8.45842 4.375C8.45842 4.54076 8.39257 4.69973 8.27536 4.81694C8.15815 4.93415 7.99918 5 7.83342 5H6.16675C6.00099 5 5.84202 4.93415 5.72481 4.81694C5.6076 4.69973 5.54175 4.54076 5.54175 4.375ZM7.00008 16.25C7.2211 16.25 7.43306 16.1622 7.58934 16.0059C7.74562 15.8496 7.83342 15.6377 7.83342 15.4167C7.83342 15.1957 7.74562 14.9837 7.58934 14.8274C7.43306 14.6711 7.2211 14.5833 7.00008 14.5833C6.77907 14.5833 6.56711 14.6711 6.41083 14.8274C6.25455 14.9837 6.16675 15.1957 6.16675 15.4167C6.16675 15.6377 6.25455 15.8496 6.41083 16.0059C6.56711 16.1622 6.77907 16.25 7.00008 16.25Z" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.333252 2.29183C0.333252 1.48683 0.986585 0.833496 1.79159 0.833496H12.2083C13.0133 0.833496 13.6666 1.48683 13.6666 2.29183V17.7085C13.6666 18.0953 13.5129 18.4662 13.2394 18.7397C12.966 19.0132 12.595 19.1668 12.2083 19.1668H1.79159C1.40481 19.1668 1.03388 19.0132 0.760388 18.7397C0.486897 18.4662 0.333252 18.0953 0.333252 17.7085V2.29183ZM1.79159 2.0835C1.73633 2.0835 1.68334 2.10545 1.64427 2.14452C1.6052 2.18359 1.58325 2.23658 1.58325 2.29183V17.7085C1.58325 17.8235 1.67659 17.9168 1.79159 17.9168H12.2083C12.2635 17.9168 12.3165 17.8949 12.3556 17.8558C12.3946 17.8167 12.4166 17.7637 12.4166 17.7085V2.29183C12.4166 2.23658 12.3946 2.18359 12.3556 2.14452C12.3165 2.10545 12.2635 2.0835 12.2083 2.0835H1.79159Z" />
+                                            </svg>
+
+                                            <div class="form-group__check"></div>
+                                        </div>
+                                        <div class="form-group__message"></div>
+                                    </div>
+
+                                    <button class="btn btn--default cta-form__btn" type="submit">
+                                        <span class="btn__bg"></span>
+
+                                        <span class="btn__inner">
+                                            связаться со мной сиюминуту
+                                        </span>
+                                    </button>
+
+                                    <label class="check cta-form__check">
+                                        <input class="check__input" type="checkbox" checked>
+                                        <span class="check__box">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 8.36842L6.09091 15L17 1" />
+                                            </svg>
+                                        </span>
+                                        <span class="check__text">
+                                            Я даю своё <a href="policy.pdf" target="_blank">согласие</a> на обработку моих
+                                            персональных данных
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="cta-form__step cta-form__step--final" style="display: none;">
+                                <div class="popup-sidebar__title">
+                                    Ваша заявка<br>
+                                    успешно<br>
+                                    отправлена
+                                </div>
+
+                                <div class="popup-sidebar__subtitle">
+                                    В течение дня с Ваши свяжется наш специалист
+                                    для передачи сметы и уточнения деталей разработки
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div id="calcPopup" class="popup">
+                <div class="popup-content">
+                    <div class="popup-content__content"></div>
+                </div>
+
+                <div class="popup-sidebar popup__sidebar" data-cursor="gray">
+                    <button class="popup__close-btn sticky" type="button">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 15L14.6642 1.00001M1.33581 1L15 15" stroke="#444A57" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+
+                    <div class="popup-sidebar__content">
+                        <form id="calcForm" class="cta-form" action="/">
+                            <div class="cta-form__step">
+                                <div class="popup-sidebar__title">
+                                    Рассчитать стоимость проекта
+                                </div>
+
+                                <div class="popup-sidebar__subtitle">
+                                    Оставьте свои контактные данные<br>
+                                    и мы перезвоним Вам
+                                </div>
+
+                                <div class="cta-form__title1">
+                                    Если знаешь, что тебе нужно, выбери заранее
+                                </div>
+
+                                <div class="cta-form__inner">
+                                    <input type="hidden" name="formLocation" value="Давайте посчитаем мне">
+                                    <div class="cta-form__options">
+                                        <div class="form-option cta-form__option">
+                                            <div class="form-option__title">
+                                                Сборщики данных:
+                                            </div>
+
+                                            <ul class="form-option__list">
+                                                <li class="form-option__item">
+                                                    <label class="radio">
+                                                        <input class="radio__input" type="radio" name="dataCollector" value="Просто форма" checked>
+                                                        <span class="radio__btn"></span>
+                                                        <span class="radio__text">
+                                                            Форма заявки
+                                                        </span>
+                                                    </label>
+                                                </li>
+                                                <li class="form-option__item">
+                                                    <label class="radio">
+                                                        <input class="radio__input" type="radio" name="dataCollector" value="Калькулятор">
+                                                        <span class="radio__btn"></span>
+                                                        <span class="radio__text">
+                                                            Калькулятор
+                                                        </span>
+                                                    </label>
+                                                </li>
+                                                <li class="form-option__item">
+                                                    <label class="radio">
+                                                        <input class="radio__input" type="radio" name="dataCollector" value="Квиз">
+                                                        <span class="radio__btn"></span>
+                                                        <span class="radio__text">
+                                                            Квиз
+                                                        </span>
+                                                    </label>
+                                                </li>
+                                                <li class="form-option__item">
+                                                    <label class="radio">
+                                                        <input class="radio__input" type="radio" name="dataCollector" value="Конструктор">
+                                                        <span class="radio__btn"></span>
+                                                        <span class="radio__text">
+                                                            Конструктор
+                                                        </span>
+                                                    </label>
+                                                </li>
+                                                <li class="form-option__item">
+                                                    <label class="radio">
+                                                        <input class="radio__input" type="radio" name="dataCollector" value="Конструктор">
+                                                        <span class="radio__btn"></span>
+                                                        <span class="radio__text">
+                                                            Портфолио
+                                                        </span>
+                                                    </label>
+                                                </li>
+                                                <li class="form-option__item">
+                                                    <label class="radio">
+                                                        <input class="radio__input" type="radio" name="dataCollector" value="Конструктор">
+                                                        <span class="radio__btn"></span>
+                                                        <span class="radio__text">
+                                                            Промо-сайт
+                                                        </span>
+                                                    </label>
+                                                </li>
+                                                <li class="form-option__item">
+                                                    <label class="radio">
+                                                        <input class="radio__input" type="radio" name="dataCollector" value="Конструктор">
+                                                        <span class="radio__btn"></span>
+                                                        <span class="radio__text">
+                                                            Мини-витрина
+                                                        </span>
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="form-option cta-form__option">
+                                            <div class="form-option__title">
+                                                Дополнительные возможности:
+                                            </div>
+
+                                            <ul class="form-option__list">
+                                                <li class="form-option__item">
+                                                    <label class="check">
+                                                        <input class="check__input" type="checkbox" name="additionalFeatures[]" value="Фотогалерея">
+                                                        <span class="check__box">
+                                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M1 8.36842L6.09091 15L17 1" />
+                                                            </svg>
+                                                        </span>
+                                                        <span class="check__text">
+                                                            Фотогалерея
+                                                        </span>
+                                                    </label>
+                                                </li>
+
+                                                <li class="form-option__item">
+                                                    <label class="check">
+                                                        <input class="check__input" type="checkbox" name="additionalFeatures[]" value="Видеогалерея">
+                                                        <span class="check__box">
+                                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M1 8.36842L6.09091 15L17 1" />
+                                                            </svg>
+                                                        </span>
+                                                        <span class="check__text">
+                                                            Видеогалерея
+                                                        </span>
+                                                    </label>
+                                                </li>
+
+                                                <li class="form-option__item">
+                                                    <label class="check">
+                                                        <input class="check__input" type="checkbox" name="additionalFeatures[]" value="Уведомление о заявках в Telegram">
+                                                        <span class="check__box">
+                                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M1 8.36842L6.09091 15L17 1" />
+                                                            </svg>
+                                                        </span>
+                                                        <span class="check__text">
+                                                            Уведомление о заявках в Telegram
+                                                        </span>
+                                                    </label>
+                                                </li>
+
+                                                <li class="form-option__item">
+                                                    <label class="check">
+                                                        <input class="check__input" type="checkbox" name="additionalFeatures[]" value="Подключение call-трекингов">
+                                                        <span class="check__box">
+                                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M1 8.36842L6.09091 15L17 1" />
+                                                            </svg>
+                                                        </span>
+                                                        <span class="check__text">
+                                                            Подключение call-трекингов
+                                                        </span>
+                                                    </label>
+                                                </li>
+
+                                                <li class="form-option__item">
+                                                    <label class="check">
+                                                        <input class="check__input" type="checkbox" name="additionalFeatures[]" value="Подключение чат-виджетов">
+                                                        <span class="check__box">
+                                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M1 8.36842L6.09091 15L17 1" />
+                                                            </svg>
+                                                        </span>
+                                                        <span class="check__text">
+                                                            Подключение чат-виджетов
+                                                        </span>
+                                                    </label>
+                                                </li>
+
+                                                <li class="form-option__item">
+                                                    <label class="check">
+                                                        <input class="check__input" type="checkbox" name="additionalFeatures[]" value="Интеграция с 1С">
+                                                        <span class="check__box">
+                                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M1 8.36842L6.09091 15L17 1" />
+                                                            </svg>
+                                                        </span>
+                                                        <span class="check__text">
+                                                            Интеграция с 1С
+                                                        </span>
+                                                    </label>
+                                                </li>
+
+                                                <li class="form-option__item">
+                                                    <label class="check">
+                                                        <input class="check__input" type="checkbox" name="additionalFeatures[]" value="Интеграция с CRM (для отправки уведомлений о заявках)">
+                                                        <span class="check__box">
+                                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M1 8.36842L6.09091 15L17 1" />
+                                                            </svg>
+                                                        </span>
+                                                        <span class="check__text">
+                                                            Интеграция с CRM (для отправки уведомлений о заявках и проброс меток для сквозной аналитики)
+                                                        </span>
+                                                    </label>
+                                                </li>
+
+                                                <li class="form-option__item">
+                                                    <label class="check">
+                                                        <input class="check__input" type="checkbox" name="additionalFeatures[]" value="Разработка КП для скачивания">
+                                                        <span class="check__box">
+                                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M1 8.36842L6.09091 15L17 1" />
+                                                            </svg>
+                                                        </span>
+                                                        <span class="check__text">
+                                                            Разработка КП для скачивания
+                                                        </span>
+                                                    </label>
+                                                </li>
+
+                                                <li class="form-option__item">
+                                                    <label class="check">
+                                                        <input class="check__input" type="checkbox" name="additionalFeatures[]" value="Динамическая подмена контента (автоматическое изменение заголовков, изображений и пр. по URL)">
+                                                        <span class="check__box">
+                                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M1 8.36842L6.09091 15L17 1" />
+                                                            </svg>
+                                                        </span>
+                                                        <span class="check__text">
+                                                            Динамическая подмена контента (автоматическое изменение заголовков, изображений и пр. по URL)
+                                                        </span>
+                                                    </label>
+                                                </li>
+
+                                                <li class="form-option__item">
+                                                    <label class="check">
+                                                        <input class="check__input" type="checkbox" name="additionalFeatures[]" value="Счетчики и таймеры обратного отсчета">
+                                                        <span class="check__box">
+                                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M1 8.36842L6.09091 15L17 1" />
+                                                            </svg>
+                                                        </span>
+                                                        <span class="check__text">
+                                                            Счетчики и таймеры обратного отсчета
+                                                        </span>
+                                                    </label>
+                                                </li>
+
+                                                <li class="form-option__item">
+                                                    <label class="check">
+                                                        <input class="check__input" type="checkbox" name="additionalFeatures[]" value="Мультирегиональность">
+                                                        <span class="check__box">
+                                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M1 8.36842L6.09091 15L17 1" />
+                                                            </svg>
+                                                        </span>
+                                                        <span class="check__text">
+                                                            Мультирегиональность
+                                                        </span>
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="cta-form__groups">
+                                        <div class="form-group cta-form__group">
+                                            <div class="field form-group__field">
+                                                <input class="field__inner" type="text" placeholder="Ваше имя" name="name">
+                                                <svg class="field__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99988 0.0834963C7.01979 0.0831961 6.06542 0.397072 5.27684 0.979055C4.48827 1.56104 3.90701 2.38048 3.61839 3.3171C3.32976 4.25372 3.34898 5.25819 3.67321 6.18309C3.99744 7.10799 4.60962 7.9046 5.41988 8.456C4.01362 8.97177 2.7939 9.89659 1.91768 11.1114C1.04146 12.3262 0.548835 13.7755 0.503211 15.2727C0.498238 15.4384 0.559317 15.5994 0.673011 15.7201C0.786705 15.8408 0.943701 15.9114 1.10946 15.9164C1.27522 15.9214 1.43617 15.8603 1.55689 15.7466C1.67762 15.6329 1.74824 15.4759 1.75321 15.3102C1.80284 13.6864 2.48276 12.1457 3.6489 11.0147C4.81504 9.88363 6.37575 9.25108 8.00029 9.25108C9.62484 9.25108 11.1855 9.88363 12.3517 11.0147C13.5178 12.1457 14.1978 13.6864 14.2474 15.3102C14.248 15.3934 14.2653 15.4756 14.2981 15.5521C14.3309 15.6286 14.3787 15.6977 14.4387 15.7554C14.4986 15.8132 14.5694 15.8584 14.6471 15.8884C14.7247 15.9184 14.8075 15.9326 14.8907 15.9301C14.9739 15.9277 15.0557 15.9087 15.1315 15.8742C15.2072 15.8397 15.2753 15.7904 15.3317 15.7292C15.3881 15.6681 15.4318 15.5962 15.4601 15.518C15.4884 15.4397 15.5008 15.3566 15.4965 15.2735C15.4511 13.7762 14.9585 12.3268 14.0823 11.1118C13.2061 9.89677 11.9863 8.97183 10.5799 8.456C11.3901 7.9046 12.0023 7.10799 12.3265 6.18309C12.6508 5.25819 12.67 4.25372 12.3814 3.3171C12.0927 2.38048 11.5115 1.56104 10.7229 0.979055C9.93433 0.397072 8.97996 0.0831961 7.99988 0.0834963ZM4.66654 4.66683C4.66654 3.78277 5.01773 2.93493 5.64286 2.30981C6.26798 1.68469 7.11582 1.3335 7.99988 1.3335C8.88393 1.3335 9.73178 1.68469 10.3569 2.30981C10.982 2.93493 11.3332 3.78277 11.3332 4.66683C11.3332 5.55088 10.982 6.39873 10.3569 7.02385C9.73178 7.64897 8.88393 8.00016 7.99988 8.00016C7.11582 8.00016 6.26798 7.64897 5.64286 7.02385C5.01773 6.39873 4.66654 5.55088 4.66654 4.66683Z" />
+                                                </svg>
+
+                                                <div class="form-group__check"></div>
+                                            </div>
+                                            <div class="form-group__message"></div>
+                                        </div>
+
+                                        <div class="form-group cta-form__group">
+                                            <div class="field form-group__field">
+                                                <input class="field__inner" type="text" placeholder="Название компании" name="company">
+                                                <svg class="field__icon" width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.24992 1.45833C6.24992 0.653333 6.90325 0 7.70825 0H12.2916C13.0966 0 13.7499 0.653333 13.7499 1.45833V3.33333H17.7083C18.5133 3.33333 19.1666 3.98667 19.1666 4.79167V16.875C19.1666 17.2618 19.0129 17.6327 18.7394 17.9062C18.466 18.1797 18.095 18.3333 17.7083 18.3333H2.29159C1.90481 18.3333 1.53388 18.1797 1.26039 17.9062C0.986897 17.6327 0.833252 17.2618 0.833252 16.875V4.79167C0.833252 3.98667 1.48659 3.33333 2.29159 3.33333H6.24992V1.45833ZM2.08325 9.99167V16.875C2.08325 16.99 2.17659 17.0833 2.29159 17.0833H17.7083C17.7635 17.0833 17.8165 17.0614 17.8556 17.0223C17.8946 16.9832 17.9166 16.9303 17.9166 16.875V9.99167C17.2772 10.536 16.4646 10.8345 15.6249 10.8333H4.37492C3.5352 10.8345 2.72261 10.536 2.08325 9.99167V9.99167ZM17.9166 7.29167C17.9166 7.89945 17.6751 8.48235 17.2454 8.91212C16.8156 9.34189 16.2327 9.58333 15.6249 9.58333H4.37492C3.76713 9.58333 3.18424 9.34189 2.75447 8.91212C2.32469 8.48235 2.08325 7.89945 2.08325 7.29167V4.79167C2.08325 4.73641 2.1052 4.68342 2.14427 4.64435C2.18334 4.60528 2.23633 4.58333 2.29159 4.58333H17.7083C17.7635 4.58333 17.8165 4.60528 17.8556 4.64435C17.8946 4.68342 17.9166 4.73641 17.9166 4.79167V7.29167ZM12.4999 1.45833V3.33333H7.49992V1.45833C7.49992 1.40308 7.52187 1.35009 7.56094 1.31102C7.60001 1.27195 7.653 1.25 7.70825 1.25H12.2916C12.3468 1.25 12.3998 1.27195 12.4389 1.31102C12.478 1.35009 12.4999 1.40308 12.4999 1.45833Z" />
+                                                </svg>
+
+                                                <div class="form-group__check"></div>
+                                            </div>
+                                            <div class="form-group__message"></div>
+                                        </div>
+
+                                        <div class="form-group cta-form__group" data-required>
+                                            <div class="field form-group__field">
+                                                <input class="field__inner" type="tel" placeholder="Телефон" name="phone">
+                                                <svg class="field__icon" width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M5.54175 4.375C5.54175 4.20924 5.6076 4.05027 5.72481 3.93306C5.84202 3.81585 6.00099 3.75 6.16675 3.75H7.83342C7.99918 3.75 8.15815 3.81585 8.27536 3.93306C8.39257 4.05027 8.45842 4.20924 8.45842 4.375C8.45842 4.54076 8.39257 4.69973 8.27536 4.81694C8.15815 4.93415 7.99918 5 7.83342 5H6.16675C6.00099 5 5.84202 4.93415 5.72481 4.81694C5.6076 4.69973 5.54175 4.54076 5.54175 4.375ZM7.00008 16.25C7.2211 16.25 7.43306 16.1622 7.58934 16.0059C7.74562 15.8496 7.83342 15.6377 7.83342 15.4167C7.83342 15.1957 7.74562 14.9837 7.58934 14.8274C7.43306 14.6711 7.2211 14.5833 7.00008 14.5833C6.77907 14.5833 6.56711 14.6711 6.41083 14.8274C6.25455 14.9837 6.16675 15.1957 6.16675 15.4167C6.16675 15.6377 6.25455 15.8496 6.41083 16.0059C6.56711 16.1622 6.77907 16.25 7.00008 16.25Z" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.333252 2.29183C0.333252 1.48683 0.986585 0.833496 1.79159 0.833496H12.2083C13.0133 0.833496 13.6666 1.48683 13.6666 2.29183V17.7085C13.6666 18.0953 13.5129 18.4662 13.2394 18.7397C12.966 19.0132 12.595 19.1668 12.2083 19.1668H1.79159C1.40481 19.1668 1.03388 19.0132 0.760388 18.7397C0.486897 18.4662 0.333252 18.0953 0.333252 17.7085V2.29183ZM1.79159 2.0835C1.73633 2.0835 1.68334 2.10545 1.64427 2.14452C1.6052 2.18359 1.58325 2.23658 1.58325 2.29183V17.7085C1.58325 17.8235 1.67659 17.9168 1.79159 17.9168H12.2083C12.2635 17.9168 12.3165 17.8949 12.3556 17.8558C12.3946 17.8167 12.4166 17.7637 12.4166 17.7085V2.29183C12.4166 2.23658 12.3946 2.18359 12.3556 2.14452C12.3165 2.10545 12.2635 2.0835 12.2083 2.0835H1.79159Z" />
+                                                </svg>
+
+                                                <div class="form-group__check"></div>
+                                            </div>
+                                            <div class="form-group__message"></div>
+                                        </div>
+
+                                        <div class="form-group cta-form__group">
+                                            <div class="field form-group__field">
+                                                <input class="field__inner" type="text" placeholder="E-mail" name="email">
+                                                <svg class="field__icon" width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.79232 0.5C1.40554 0.5 1.03461 0.653646 0.76112 0.927136C0.48763 1.20063 0.333984 1.57156 0.333984 1.95833L0.333984 13.625C0.333984 14.43 0.987318 15.0833 1.79232 15.0833H18.8757C19.2624 15.0833 19.6334 14.9297 19.9068 14.6562C20.1803 14.3827 20.334 14.0118 20.334 13.625V1.95833C20.334 1.57156 20.1803 1.20063 19.9068 0.927136C19.6334 0.653646 19.2624 0.5 18.8757 0.5H1.79232ZM1.58398 1.95833C1.58398 1.90308 1.60593 1.85009 1.645 1.81102C1.68407 1.77195 1.73706 1.75 1.79232 1.75H18.8757C18.9309 1.75 18.9839 1.77195 19.023 1.81102C19.062 1.85009 19.084 1.90308 19.084 1.95833V2.66833L10.4507 8.50167C10.4162 8.52495 10.3756 8.5374 10.334 8.5374C10.2924 8.5374 10.2518 8.52495 10.2173 8.50167L1.58398 2.66833V1.95833ZM1.58398 4.17667V13.625C1.58398 13.74 1.67732 13.8333 1.79232 13.8333H18.8757C18.9309 13.8333 18.9839 13.8114 19.023 13.7723C19.062 13.7332 19.084 13.6803 19.084 13.625V4.17667L11.1507 9.5375C10.6573 9.87084 10.0107 9.87084 9.51732 9.5375L1.58398 4.17667Z" />
+                                                </svg>
+
+                                                <div class="form-group__check"></div>
+                                            </div>
+                                            <div class="form-group__message"></div>
+                                        </div>
+
+                                        <div class="form-group cta-form__group">
+                                            <div class="field form-group__field">
+                                                <input class="field__inner" type="text" placeholder="Город" name="city">
+                                                <svg class="field__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g opacity="0.7">
+                                                        <path d="M10.0001 11.2502C10.5526 11.2502 11.0825 11.0307 11.4732 10.64C11.8639 10.2493 12.0834 9.71936 12.0834 9.16683C12.0834 8.6143 11.8639 8.08439 11.4732 7.69369C11.0825 7.30299 10.5526 7.0835 10.0001 7.0835C9.44755 7.0835 8.91764 7.30299 8.52694 7.69369C8.13624 8.08439 7.91675 8.6143 7.91675 9.16683C7.91675 9.71936 8.13624 10.2493 8.52694 10.64C8.91764 11.0307 9.44755 11.2502 10.0001 11.2502Z" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8925 2.85762C12.6383 -0.396549 7.36168 -0.396549 4.10835 2.85762C0.854183 6.11178 0.854183 11.3885 4.10835 14.6426L4.13168 14.666L8.61085 19.1451C8.97951 19.5138 9.4795 19.7208 10.0008 19.7208C10.5222 19.7208 11.0222 19.5138 11.3908 19.1451L15.8934 14.6426C19.1475 11.3885 19.1475 6.11178 15.8934 2.85762H15.8925ZM4.99168 3.74095C6.32338 2.42852 8.11997 1.69584 9.98968 1.70269C11.8594 1.70954 13.6506 2.45536 14.9726 3.77751C16.2947 5.09966 17.0403 6.8909 17.047 8.76062C17.0537 10.6303 16.3209 12.4269 15.0084 13.7585L10.5058 18.2618C10.3716 18.3958 10.1897 18.4711 10 18.4711C9.81033 18.4711 9.6284 18.3958 9.49418 18.2618L5.01252 13.7801L5.01085 13.7785L4.99168 13.7585C3.66351 12.4301 2.91736 10.6286 2.91736 8.75012C2.91736 6.87167 3.66351 5.07014 4.99168 3.74178V3.74095Z" />
+                                                    </g>
+                                                </svg>
+
+                                                <div class="form-group__check"></div>
+                                            </div>
+                                            <div class="form-group__message"></div>
+                                        </div>
+
+                                        <div class="form-group cta-form__group">
+                                            <div class="field form-group__field">
+                                                <input class="field__inner" type="text" placeholder="Описание задачи" name="description">
+                                                <svg class="field__icon" width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3858 0.813979C13.6593 0.540711 14.0301 0.387207 14.4167 0.387207C14.8033 0.387207 15.174 0.540711 15.4475 0.813979L17.6025 2.96898C17.8758 3.24244 18.0293 3.61322 18.0293 3.99981C18.0293 4.38641 17.8758 4.75718 17.6025 5.03065L15.275 7.35814L15.265 7.36898L6.24166 15.9815C6.07681 16.1391 5.87731 16.2558 5.65916 16.3223L1.05666 17.7223C0.94841 17.755 0.833307 17.7578 0.723616 17.7303C0.613925 17.7028 0.513758 17.646 0.433791 17.566C0.353823 17.486 0.297051 17.3859 0.269527 17.2762C0.242002 17.1665 0.244755 17.0514 0.277493 16.9431L1.67166 12.3598C1.74478 12.1199 1.87853 11.9029 2.05999 11.7298L11.0633 3.13565L13.3858 0.813979ZM11.49 4.45648L2.92333 12.634C2.89727 12.6587 2.87804 12.6897 2.86749 12.724L1.81416 16.1856L5.29499 15.1265C5.32624 15.1169 5.35479 15.1 5.37833 15.0773L13.9392 6.90565L11.4892 4.45648H11.49ZM14.8333 6.03315L16.7192 4.14815C16.7386 4.12879 16.754 4.1058 16.7645 4.08049C16.775 4.05518 16.7804 4.02805 16.7804 4.00065C16.7804 3.97324 16.775 3.94611 16.7645 3.9208C16.754 3.89549 16.7386 3.8725 16.7192 3.85315L14.5642 1.69815C14.5448 1.67874 14.5218 1.66335 14.4965 1.65285C14.4712 1.64235 14.4441 1.63694 14.4167 1.63694C14.3893 1.63694 14.3621 1.64235 14.3368 1.65285C14.3115 1.66335 14.2885 1.67874 14.2692 1.69815L12.3842 3.58315L14.8333 6.03315Z" />
+                                                </svg>
+
+                                                <div class="form-group__check"></div>
+                                            </div>
+                                            <div class="form-group__message"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="messengers cta-form__messengers">
+                                        <div class="messengers__title">
+                                            Выберите удобный способ связи
+                                        </div>
+
+                                        <ul class="messengers__list">
+                                            <li class="messengers__item">
+                                                <label class="messenger">
+                                                    <input class="messenger__input" type="radio" name="messenger" value="Почта" checked>
+                                                    <span class="messenger__bg"></span>
+                                                    <svg class="messenger__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <ellipse cx="12.289" cy="12.289" rx="11.5556" ry="11.5556" fill="#28D3B4" />
+                                                        <g clip-path="url(#clip0_1295:7720)">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.22917 8.75C8.03578 8.75 7.85031 8.82682 7.71357 8.96357C7.57682 9.10031 7.5 9.28578 7.5 9.47917V15.3125C7.5 15.715 7.82667 16.0417 8.22917 16.0417H16.7708C16.9642 16.0417 17.1497 15.9648 17.2864 15.8281C17.4232 15.6914 17.5 15.5059 17.5 15.3125V9.47917C17.5 9.28578 17.4232 9.10031 17.2864 8.96357C17.1497 8.82682 16.9642 8.75 16.7708 8.75H8.22917ZM8.125 10.5883V15.3125C8.125 15.37 8.17167 15.4167 8.22917 15.4167H16.7708C16.7985 15.4167 16.825 15.4057 16.8445 15.3862C16.864 15.3666 16.875 15.3401 16.875 15.3125V10.5883L12.9083 13.2688C12.6617 13.4354 12.3383 13.4354 12.0917 13.2688L8.125 10.5883Z" fill="white" />
+                                                        </g>
+                                                        <defs>
+                                                            <clipPath id="clip0_1295:7720">
+                                                                <rect width="10" height="10" fill="white" transform="translate(7.5 7.5)" />
+                                                            </clipPath>
+                                                        </defs>
+                                                    </svg>
+
+                                                    <span class="messenger__title">
+                                                        Почта
+                                                    </span>
+                                                </label>
+                                            </li>
+                                            <li class="messengers__item">
+                                                <label class="messenger">
+                                                    <input class="messenger__input" type="radio" name="messenger" value="Telegram">
+                                                    <span class="messenger__bg"></span>
+                                                    <svg class="messenger__icon" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <ellipse cx="13.289" cy="13.289" rx="11.5556" ry="11.5556" fill="#1B8CF4" />
+                                                        <path d="M11.943 14.5753L11.7805 16.8337C12.013 16.8337 12.1137 16.735 12.2344 16.6165L13.3243 15.5872L15.5827 17.2215C15.9968 17.4496 16.2886 17.3295 16.4004 16.845L17.8828 9.98079L17.8832 9.98039C18.0145 9.37534 17.6617 9.13875 17.2582 9.28718L8.54487 12.5838C7.9502 12.8119 7.9592 13.1395 8.44378 13.2879L10.6714 13.9726L15.8458 10.7731C16.0893 10.6137 16.3107 10.7019 16.1286 10.8613L11.943 14.5753Z" fill="white" />
+                                                    </svg>
+                                                    <span class="messenger__title">
+                                                        Telegram
+                                                    </span>
+                                                </label>
+                                            </li>
+                                            <li class="messengers__item">
+                                                <label class="messenger">
+                                                    <input class="messenger__input" type="radio" name="messenger" value="WhatsApp">
+                                                    <span class="messenger__bg"></span>
+                                                    <svg class="messenger__icon" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <ellipse cx="13.289" cy="13.289" rx="11.5556" ry="11.5556" fill="#00A500" />
+                                                        <path d="M13.2902 8.08887H13.2876C10.4204 8.08887 8.08887 10.4211 8.08887 13.2889C8.08887 14.4264 8.45547 15.4807 9.07882 16.3367L8.43077 18.2685L10.4295 17.6296C11.2518 18.1743 12.2326 18.4889 13.2902 18.4889C16.1573 18.4889 18.4889 16.156 18.4889 13.2889C18.4889 10.4217 16.1573 8.08887 13.2902 8.08887ZM16.3159 15.4319C16.1905 15.7862 15.6926 16.08 15.2954 16.1658C15.0237 16.2236 14.6688 16.2698 13.4741 15.7745C11.946 15.1414 10.9619 13.5885 10.8852 13.4878C10.8117 13.387 10.2677 12.6655 10.2677 11.9193C10.2677 11.1731 10.6466 10.8098 10.7994 10.6538C10.9248 10.5257 11.1322 10.4672 11.3311 10.4672C11.3954 10.4672 11.4533 10.4705 11.5053 10.4731C11.658 10.4796 11.7347 10.4887 11.8355 10.7298C11.9609 11.0321 12.2664 11.7783 12.3028 11.855C12.3399 11.9317 12.3769 12.0357 12.3249 12.1364C12.2762 12.2404 12.2333 12.2866 12.1566 12.375C12.0799 12.4634 12.0071 12.531 11.9304 12.6259C11.8602 12.7084 11.7809 12.7968 11.8693 12.9496C11.9577 13.0991 12.2632 13.5976 12.713 13.998C13.2934 14.5148 13.764 14.6799 13.9324 14.7501C14.0578 14.8021 14.2073 14.7897 14.299 14.6922C14.4153 14.5668 14.559 14.3588 14.7052 14.154C14.8092 14.0071 14.9405 13.9889 15.0783 14.0409C15.2187 14.0897 15.9617 14.4569 16.1144 14.533C16.2672 14.6097 16.3679 14.6461 16.405 14.7104C16.4414 14.7748 16.4414 15.077 16.3159 15.4319Z" fill="white" />
+                                                    </svg>
+                                                    <span class="messenger__title">
+                                                        WhatsApp
+                                                    </span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <button class="btn btn--default cta-form__btn" type="submit">
+                                        <span class="btn__bg"></span>
+
+                                        <span class="btn__inner">
+                                            связаться со мной сиюминуту
+                                        </span>
+                                    </button>
+
+                                    <label class="check cta-form__check">
+                                        <input class="check__input" type="checkbox" checked>
+                                        <span class="check__box">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 8.36842L6.09091 15L17 1" />
+                                            </svg>
+                                        </span>
+                                        <span class="check__text">
+                                            Я даю своё <a href="policy.pdf" target="_blank">согласие</a> на обработку моих
+                                            персональных данных
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="cta-form__step cta-form__step--final" style="display: none;">
+                                <div class="popup-sidebar__title">
+                                    Ваша заявка<br>
+                                    успешно<br>
+                                    отправлена
+                                </div>
+
+                                <div class="popup-sidebar__subtitle">
+                                    В течение дня с Ваши свяжется наш специалист
+                                    для передачи сметы и уточнения деталей разработки
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div id="projectPopup" class="popup">
+                <div id="popupContent" class="popup-content">
+                    <div class="popup-content__content">
+                        <div class="cases">
+                            <ul class="cases__list" data-cursor="filled-blue">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popup-sidebar popup-sidebar--project" data-cursor="gray">
+                    <button class="popup__close-btn sticky" type="button">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 15L14.6642 1.00001M1.33581 1L15 15" stroke="#444A57" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+
+                    <div class="popup-sidebar__content">
+                        <form id="projectForm" class="cta-form" action="/" name="project">
+                            <div class="cta-form__step">
+                                <div class="popup-sidebar__title"></div>
+
+                                <div class="popup-sidebar__subtitle"></div>
+
+                                <div class="project-description popup-sidebar__project-description">
+                                    <div class="project-description__title">
+                                        Функциональные возможности
+                                    </div>
+
+                                    <div class="project-description__text"></div>
+                                </div>
+
+                                <div class="cases popup-sidebar__cases">
+                                    <ul class="cases__list" data-cursor="filled-blue">
+                                    </ul>
+                                </div>
+
+
+
+                                <div class="cta-form__title">
+                                    Оставить заявку
+                                </div>
+
+                                <div class="cta-form__inner popup-cta__form">
+                                    <input type="hidden" name="formLocation" value="Проект">
+                                    <div class="form-group cta-form__group">
+                                        <div class="field form-group__field">
+                                            <input class="field__inner" type="text" placeholder="Ваше имя" name="name">
+                                            <svg class="field__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99988 0.0834963C7.01979 0.0831961 6.06542 0.397072 5.27684 0.979055C4.48827 1.56104 3.90701 2.38048 3.61839 3.3171C3.32976 4.25372 3.34898 5.25819 3.67321 6.18309C3.99744 7.10799 4.60962 7.9046 5.41988 8.456C4.01362 8.97177 2.7939 9.89659 1.91768 11.1114C1.04146 12.3262 0.548835 13.7755 0.503211 15.2727C0.498238 15.4384 0.559317 15.5994 0.673011 15.7201C0.786705 15.8408 0.943701 15.9114 1.10946 15.9164C1.27522 15.9214 1.43617 15.8603 1.55689 15.7466C1.67762 15.6329 1.74824 15.4759 1.75321 15.3102C1.80284 13.6864 2.48276 12.1457 3.6489 11.0147C4.81504 9.88363 6.37575 9.25108 8.00029 9.25108C9.62484 9.25108 11.1855 9.88363 12.3517 11.0147C13.5178 12.1457 14.1978 13.6864 14.2474 15.3102C14.248 15.3934 14.2653 15.4756 14.2981 15.5521C14.3309 15.6286 14.3787 15.6977 14.4387 15.7554C14.4986 15.8132 14.5694 15.8584 14.6471 15.8884C14.7247 15.9184 14.8075 15.9326 14.8907 15.9301C14.9739 15.9277 15.0557 15.9087 15.1315 15.8742C15.2072 15.8397 15.2753 15.7904 15.3317 15.7292C15.3881 15.6681 15.4318 15.5962 15.4601 15.518C15.4884 15.4397 15.5008 15.3566 15.4965 15.2735C15.4511 13.7762 14.9585 12.3268 14.0823 11.1118C13.2061 9.89677 11.9863 8.97183 10.5799 8.456C11.3901 7.9046 12.0023 7.10799 12.3265 6.18309C12.6508 5.25819 12.67 4.25372 12.3814 3.3171C12.0927 2.38048 11.5115 1.56104 10.7229 0.979055C9.93433 0.397072 8.97996 0.0831961 7.99988 0.0834963ZM4.66654 4.66683C4.66654 3.78277 5.01773 2.93493 5.64286 2.30981C6.26798 1.68469 7.11582 1.3335 7.99988 1.3335C8.88393 1.3335 9.73178 1.68469 10.3569 2.30981C10.982 2.93493 11.3332 3.78277 11.3332 4.66683C11.3332 5.55088 10.982 6.39873 10.3569 7.02385C9.73178 7.64897 8.88393 8.00016 7.99988 8.00016C7.11582 8.00016 6.26798 7.64897 5.64286 7.02385C5.01773 6.39873 4.66654 5.55088 4.66654 4.66683Z" />
+                                            </svg>
+
+                                            <div class="form-group__check"></div>
+                                        </div>
+                                        <div class="form-group__message"></div>
+                                    </div>
+
+                                    <div class="form-group cta-form__group" data-required>
+                                        <div class="field form-group__field">
+                                            <input class="field__inner" type="tel" placeholder="Телефон" name="phone">
+                                            <svg class="field__icon" width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5.54175 4.375C5.54175 4.20924 5.6076 4.05027 5.72481 3.93306C5.84202 3.81585 6.00099 3.75 6.16675 3.75H7.83342C7.99918 3.75 8.15815 3.81585 8.27536 3.93306C8.39257 4.05027 8.45842 4.20924 8.45842 4.375C8.45842 4.54076 8.39257 4.69973 8.27536 4.81694C8.15815 4.93415 7.99918 5 7.83342 5H6.16675C6.00099 5 5.84202 4.93415 5.72481 4.81694C5.6076 4.69973 5.54175 4.54076 5.54175 4.375ZM7.00008 16.25C7.2211 16.25 7.43306 16.1622 7.58934 16.0059C7.74562 15.8496 7.83342 15.6377 7.83342 15.4167C7.83342 15.1957 7.74562 14.9837 7.58934 14.8274C7.43306 14.6711 7.2211 14.5833 7.00008 14.5833C6.77907 14.5833 6.56711 14.6711 6.41083 14.8274C6.25455 14.9837 6.16675 15.1957 6.16675 15.4167C6.16675 15.6377 6.25455 15.8496 6.41083 16.0059C6.56711 16.1622 6.77907 16.25 7.00008 16.25Z" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.333252 2.29183C0.333252 1.48683 0.986585 0.833496 1.79159 0.833496H12.2083C13.0133 0.833496 13.6666 1.48683 13.6666 2.29183V17.7085C13.6666 18.0953 13.5129 18.4662 13.2394 18.7397C12.966 19.0132 12.595 19.1668 12.2083 19.1668H1.79159C1.40481 19.1668 1.03388 19.0132 0.760388 18.7397C0.486897 18.4662 0.333252 18.0953 0.333252 17.7085V2.29183ZM1.79159 2.0835C1.73633 2.0835 1.68334 2.10545 1.64427 2.14452C1.6052 2.18359 1.58325 2.23658 1.58325 2.29183V17.7085C1.58325 17.8235 1.67659 17.9168 1.79159 17.9168H12.2083C12.2635 17.9168 12.3165 17.8949 12.3556 17.8558C12.3946 17.8167 12.4166 17.7637 12.4166 17.7085V2.29183C12.4166 2.23658 12.3946 2.18359 12.3556 2.14452C12.3165 2.10545 12.2635 2.0835 12.2083 2.0835H1.79159Z" />
+                                            </svg>
+
+                                            <div class="form-group__check"></div>
+                                        </div>
+                                        <div class="form-group__message"></div>
+                                    </div>
+
+                                    <button class="btn btn--default cta-form__btn" type="submit">
+                                        <span class="btn__bg"></span>
+
+                                        <span class="btn__inner">
+                                            связаться со мной сиюминуту
+                                        </span>
+                                    </button>
+
+                                    <label class="check cta-form__check">
+                                        <input class="check__input" type="checkbox" checked>
+                                        <span class="check__box">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 8.36842L6.09091 15L17 1" />
+                                            </svg>
+                                        </span>
+                                        <span class="check__text">
+                                            Я даю своё <a href="policy.pdf" target="_blank">согласие</a> на обработку моих
+                                            персональных данных
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="cta-form__step cta-form__step--final" style="display: none;">
+                                <div class="popup-sidebar__title">
+                                    Ваша заявка<br>
+                                    успешно<br>
+                                    отправлена
+                                </div>
+
+                                <div class="popup-sidebar__subtitle">
+                                    В течение дня с Ваши свяжется наш специалист
+                                    для передачи сметы и уточнения деталей разработки
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cursor">
+            <div class="cursor-leader">
+                <div class="cursor-point"></div>
+
+                <svg class="cursor-arrows" width="34" height="14px" viewBox="0 0 41 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 1L1 9L9 17" stroke="#fff"></path>
+                    <path d="M32 17L40 9L32 1" stroke="#fff"></path>
+                </svg>
+            </div>
+
+            <div class="cursor-follower">
+                <div class="cursor-circle"></div>
+            </div>
+        </div>
+    </body>
+</html>
